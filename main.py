@@ -6,7 +6,7 @@ URL = 'http://api.open-notify.org/iss-now.json'
 filename = 'iss_positions.csv'
 
 with open(filename, 'w') as file:
-    file.write('           Date             Latitude  Longitude\n')
+    file.write('Date;Latitude;Longitude\n')
 
 
 while True:
